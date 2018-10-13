@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i&subset=cyrillic-ext");
+body, h1, h2, h3, h4, h5 {
+  font-family: 'Philosopher', sans-serif;
+}
+
+body .masthead, h1 .masthead, h2 .masthead, h3 .masthead, h4 .masthead, h5 .masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead (2).jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead (2).jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body .masthead h1, h1 .masthead h1, h2 .masthead h1, h3 .masthead h1, h4 .masthead h1, h5 .masthead h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+body .masthead em, h1 .masthead em, h2 .masthead em, h3 .masthead em, h4 .masthead em, h5 .masthead em {
+  color: burlywood;
+}
+
+body #about p, h1 #about p, h2 #about p, h3 #about p, h4 #about p, h5 #about p {
+  font-size: 1rem;
+}
+
+body #about .btn, h1 #about .btn, h2 #about .btn, h3 #about .btn, h4 #about .btn, h5 #about .btn {
+  background-color: #ff756b;
+}
+
+body #services, h1 #services, h2 #services, h3 #services, h4 #services, h5 #services {
+  background: #865fc5;
+}
+
+body section.callout, h1 section.callout, h2 section.callout, h3 section.callout, h4 section.callout, h5 section.callout {
+  background: #ff756b;
+}
+/*# sourceMappingURL=index.css.map */
