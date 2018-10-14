@@ -294,9 +294,12 @@
   <!-- Call to Action -->
   <section class="content-section bg-primary text-white">
     <div class="container text-center">
-      <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-      <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
-      <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
+      <h2 class="mb-4">If yoy like this page and the information you can ... </h2>
+      <button id="button1" class="btn bg-info">Like it!</button>
+        
+      
+      
+  <span class="service-icon rounded-circle mx-auto " id="span1"><a class="icon-heart bg-" ></a></span>   </a>
     </div>
   </section>
 
@@ -352,7 +355,21 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/stylish-portfolio.min.js"></script>
-
+  <script>
+    var whichButton = "";
+    var counter = 0;                        // Adds counters next to each 
+    var counter2 = 0;                       // "Like" button, and raises
+    $("button").on("click", function(){     // their values separately.
+      whichButton = this.id;                   
+      if (whichButton === "button1") {        
+        counter++; 
+        $("#span1").html(counter);
+      } else {
+        counter2++
+        $("#span2").html(counter2);
+      }
+    });
+    </script>
 </body>
 
 </html>
