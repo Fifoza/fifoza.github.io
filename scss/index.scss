@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i&subset=cyrillic-ext');
 
-
-
+/*
+body{
+    background-image: url('../img/paint-268231_1920.jpg');
+}*/
 
 
 
@@ -24,15 +26,18 @@ body, h1, h2, h3, h4, h5 {
         padding-top: 8rem;
         padding-bottom: 8rem;
         background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))),
-        url("../img/bg-masthead\ \(2\).jpg");
+        url("../img/viloetbackgr.jpg");
         background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%),
-        url("../img/bg-masthead\ \(2\).jpg");
+        url("../img/viloetbackgr.jpg");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     #about {
+    
+ 
+    
         p{
             font-size: 1rem;
         }
